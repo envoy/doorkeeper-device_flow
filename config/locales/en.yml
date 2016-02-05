@@ -1,0 +1,9 @@
+en:
+  doorkeeper:
+    errors:
+      messages:
+        # Device token errors
+        authorization_declined: 'The resource owner or authorization server denied the request.'
+        code_expired: 'The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.'
+        authorization_pending: 'The resource owner has not yet authorized the request.'
+        slow_down: 'The client is polling the authorization server too frequently. Slow down the polling to the interval specified in the device_token call.'
